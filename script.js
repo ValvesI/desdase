@@ -1,5 +1,5 @@
-var botao = document.querySelector(".botao1");
-var botao1 = document.querySelector(".botao2");
+var botao = document.getElementById("#botao1");
+var botao1 = document.getElementById("#botao2");
 
 let opcoes1 = [
     "Metade da população global desabrigada recebe moradia",
