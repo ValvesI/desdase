@@ -4,13 +4,13 @@ var botao2 = document.getElementById("botao2");
 
 
 let opcoes1 = [
-    "Todas as áreas de desmatamento são restauradas",
-    "Descobrir viagem no tempo",
+    "Todas as áreas de desmatamento são restauradas mas os impostos sobem em 200%",
+    "Descobrir viagem no tempo mas só para o futuro",
 ];
 
 let opcoes2 = [
-    "O aquecimento global dos últimos 70 anos é revertido em 50%",
-    "Descobrir teletransporte",
+    "O aquecimento global dos últimos 70 anos é revertido em 50% mas o crédito vai para a China",
+    "Descobrir teletransporte mas somente para lugares próximos",
 ];
 
 
