@@ -7,16 +7,17 @@ let opcoes1 = [
     "Descobrir viagem no tempo",
 ];
 
+let opcoes2 = [
+    "Metade da população faminta recebe alimento",
+    "O aquecimento global dos ultimos 70 anos é revertido em 50%",
+    "Descobrir teletransporte",
+];
+
 for (let i = 0; i < 3; i++){
         // Adiciona um evento de clique ao botão
         botao.addEventListener("click", function() {
             // Verifica o texto atual do botão
                 botao.textContent = opcoes1[i];
-            i++
-        });
-    
-        botao.addEventListener("click", function() {
-            // Verifica o texto atual do botão
-                botao.textContent = opcoes2[i];
+                botao1.textContent = opcoes2[i];
             i++
         });}
