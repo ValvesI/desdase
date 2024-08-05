@@ -23,8 +23,8 @@ botao1.addEventListener("click", function() {
         botao2.textContent = opcoes2[index];
         index++;
     } else {
-        botao1.textContent = "Nenhuma opção disponível";
-        botao2.textContent = "Nenhuma opção disponível";
+        botao1.textContent = "Você finalizou todas as perguntas";
+        botao2.textContent = "Você finalizou todas as perguntas";
     }
 });
 
