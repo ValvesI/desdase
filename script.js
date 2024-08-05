@@ -1,8 +1,8 @@
-// Seleciona os botões pelo ID
+
 var botao1 = document.getElementById("botao1");
 var botao2 = document.getElementById("botao2");
 
-// Opções para os botões
+
 let opcoes1 = [
     "Todas as áreas de desmatamento são restauradas",
     "Descobrir viagem no tempo",
@@ -13,10 +13,10 @@ let opcoes2 = [
     "Descobrir teletransporte",
 ];
 
-// Índice para rastrear o estado atual
+
 let index = 0;
 
-// Adiciona um evento de clique ao primeiro botão
+
 botao1.addEventListener("click", function() {
     if (index < opcoes1.length) {
         botao1.textContent = opcoes1[index];
@@ -28,7 +28,7 @@ botao1.addEventListener("click", function() {
     }
 });
 
-// Adiciona um evento de clique ao segundo botão (opcional, se desejar que o botão2 também mude)
+
 botao2.addEventListener("click", function() {
     if (index < opcoes2.length) {
         botao1.textContent = opcoes1[index];
