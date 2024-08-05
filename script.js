@@ -9,7 +9,7 @@ let opcoes1 = [
 ];
 
 let opcoes2 = [
-    "O aquecimento global dos últimos 70 anos é revertido em 50% mas o crédito vai para a China",
+    "O aquecimento global dos últimos 70 anos é revertido em 50% mas o preço do barril de petroleo aumenta em 200%",
     "Descobrir teletransporte mas somente para lugares próximos (3 metros)",
 ];
 
