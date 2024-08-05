@@ -4,13 +4,11 @@ var botao2 = document.getElementById("botao2");
 
 // Opções para os botões
 let opcoes1 = [
-    "Metade da população global desabrigada recebe moradia",
     "Todas as áreas de desmatamento são restauradas",
     "Descobrir viagem no tempo",
 ];
 
 let opcoes2 = [
-    "Metade da população faminta recebe alimento",
     "O aquecimento global dos últimos 70 anos é revertido em 50%",
     "Descobrir teletransporte",
 ];
@@ -37,7 +35,7 @@ botao2.addEventListener("click", function() {
         botao2.textContent = opcoes2[index];
         index++;
     } else {
-        botao1.textContent = "Nenhuma opção disponível";
-        botao2.textContent = "Nenhuma opção disponível";
+        botao1.textContent = "Você finalizou todas as perguntas";
+        botao2.textContent = "Você finalizou todas as perguntas";
     }
 });
