@@ -10,11 +10,11 @@ const pergumtas = [
         alternativas: [
             {
                 texto: "Metade da população global desabrigada recebe moradia mas pelo menos uma pessoa fica na sua casa",
-                afirmacao: "afirmacao",
+                afirmacao: "Alguem aleatório ira morar como você enquanto o metade dos desabrigados não será mais desabrigado",
             },
             {
                 texto: "Metade da população faminta recebe alimento mas todos deixam de sentir o sabor da comida pelo resto da vida",
-                afirmacao: "afirmacao",
+                afirmacao: "Metade da população que passava fome agora não ira mais sentir fome mas também não sentem mais o gosto da comida ",
             },
         ] 
     },
@@ -23,11 +23,11 @@ const pergumtas = [
         alternativas: [
             {
                 texto: "Todas as áreas de desmatamento são restauradas mas os impostos sobem em 200%",
-                afirmacao: "afirmacao",
+                afirmacao: "Agora existem mais árvores mais as pessoas não estão felizes com os impostos",
             },
             {
                 texto: "O aquecimento global dos últimos 70 anos é revertido em 50% mas o preço do barril de petroleo aumenta em 200%",
-                afirmacao: "afirmacao",
+                afirmacao: "Agora existe menos poluição mas as pessoas não estão felizes c",
             },
         ] 
     },
@@ -36,11 +36,11 @@ const pergumtas = [
         alternativas: [
             {
                 texto: "Descobrir viagem no tempo mas só para o futuro, na mesma linha do tempo (sem replicas) e com delay de 1 minuto entre cada uso",
-                afirmacao: "afirmacao",
+                afirmacao: "Você descobre como viajar pro futuro mas não pode contar pra ninguem no passado",
             },
             {
                 texto: "Descobrir teletransporte mas somente para lugares próximos (3 metros)",
-                afirmacao: "afirmacao",
+                afirmacao: "Você pode ser teleportar para lugares próximos, e só",
             },
         ] 
     },
