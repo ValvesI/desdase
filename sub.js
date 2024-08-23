@@ -10,11 +10,11 @@ const pergumtas = [
         alternativas: [
             {
                 texto: "alternativa 1",
-                afirmação: "afirmação",
+                afirmacao: "afirmacao",
             },
             {
                 texto: "alternativa 2",
-                afirmação: "afirmação",
+                afirmacao: "afirmacao",
             },
         ] 
     },
@@ -23,11 +23,11 @@ const pergumtas = [
         alternativas: [
             {
                 texto: "alternativa 1",
-                afirmação: "afirmação",
+                afirmacao: "afirmacao",
             },
             {
                 texto: "alternativa 2",
-                afirmação: "afirmação",
+                afirmacao: "afirmacao",
             },
         ] 
     },
@@ -36,11 +36,11 @@ const pergumtas = [
         alternativas: [
             {
                 texto: "alternativa 1",
-                afirmação: "afirmação",
+                afirmacao: "afirmacao",
             },
             {
                 texto: "alternativa 2",
-                afirmação: "afirmação",
+                afirmacao: "afirmacao",
             },
         ] 
     },
@@ -72,7 +72,7 @@ function mostraAlternativa(){
     }
 
     function respostaSelecionada(pergunta){
-        const afirmacoes = pergunta.afirmação;
+        const afirmacoes = pergunta.afirmacao;
         historiaFinal += afirmacoes + " ";
         atual++;
         mostraPergunta();
