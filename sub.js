@@ -51,9 +51,10 @@ let perguntaAtual;
 let historiaFinal = "";
 
 function mostraPergunta (){
-    perguntaAtual[atual];
-    caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent = "";
+    if(atual >= pergumtas.length){
+        mostraResultado();
+        return;
+    }
 }
 
 function mostraAlternativa(){
@@ -74,6 +75,8 @@ function mostraAlternativa(){
     }
 
     function mostraResultado(){
-        caixaPerguntas.textContent = "Em resumo, você escolheu..."
+        caixaPerguntas.textContent = "Em resumo, você escolheu...";
+        caixaResultado.textContent = historiaFinal;
+        caixaAlternativas.textContent = "";
     }
     mostraPergunta();
