@@ -9,11 +9,11 @@ const pergumtas = [
         enunciado: "no âmbito social, você prefere:",
         alternativas: [
             {
-                texto: "alternativa 1",
+                texto: "Metade da população global desabrigada recebe moradia mas pelo menos uma pessoa fica na sua casa",
                 afirmacao: "afirmacao",
             },
             {
-                texto: "alternativa 2",
+                texto: "Metade da população faminta recebe alimento mas todos deixam de sentir o sabor da comida pelo resto da vida",
                 afirmacao: "afirmacao",
             },
         ] 
