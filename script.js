@@ -1,6 +1,7 @@
 
-var botao1 = document.getElementById("botao1");
-var botao2 = document.getElementById("botao2");
+let botao1 = document.getElementById("botao1");
+let botao2 = document.getElementById("botao2");
+let pergunta = document.querySelector(".")
 
 
 let opcoes1 = [
