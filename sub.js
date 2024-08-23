@@ -22,11 +22,11 @@ const pergumtas = [
         enunciado: "no âmbito ambiental, você prefere:",
         alternativas: [
             {
-                texto: "alternativa 1",
+                texto: "Todas as áreas de desmatamento são restauradas mas os impostos sobem em 200%",
                 afirmacao: "afirmacao",
             },
             {
-                texto: "alternativa 2",
+                texto: "O aquecimento global dos últimos 70 anos é revertido em 50% mas o preço do barril de petroleo aumenta em 200%",
                 afirmacao: "afirmacao",
             },
         ] 
@@ -35,11 +35,11 @@ const pergumtas = [
         enunciado: "no âmbito tecnologico, você prefere:",
         alternativas: [
             {
-                texto: "alternativa 1",
+                texto: "Descobrir viagem no tempo mas só para o futuro, na mesma linha do tempo (sem replicas) e com delay de 1 minuto entre cada uso",
                 afirmacao: "afirmacao",
             },
             {
-                texto: "alternativa 2",
+                texto: "Descobrir teletransporte mas somente para lugares próximos (3 metros)",
                 afirmacao: "afirmacao",
             },
         ] 
