@@ -62,7 +62,7 @@ function mostraPergunta (){
 }
 
 function mostraAlternativa(){
-    for (const textoResultado of perguntaAtual.alternativas) {
+    for (const text of perguntaAtual.alternativas) {
         const botaoAlternativa = document.createElement('button');
         botaoAlternativa.textContent = text.texto;
         botaoAlternativa.addEventListener ("click", ()=> respostaSelecionada(text));
@@ -83,4 +83,5 @@ function mostraAlternativa(){
         caixaResultado.textContent = historiaFinal;
         caixaAlternativas.textContent = "";
     }
+
     mostraPergunta();
